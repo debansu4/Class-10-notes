@@ -1,103 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 10 Notes</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <style>
-        .note-btn {
-            transition: all 0.3s ease;
-            transform: translateY(0);
-        }
-        .note-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>দশম শ্রেণীর নোটস</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+  <!-- বাংলা ফন্ট -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .note-btn {
+      transition: all 0.3s ease;
+      transform: translateY(0);
+    }
+    .note-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
-<body class="bg-gray-50 min-h-screen">
-    <div class="container mx-auto px-4 py-12">
-        <header class="text-center mb-12" data-aos="fade-down">
-            <h1 class="text-4xl font-bold text-blue-600 mb-4">Class 10 Study Materials</h1>
-            <p class="text-lg text-gray-600">Access all your notes in one place</p>
-        </header>
+<body class="bg-gray-50 min-h-screen flex flex-col">
 
-        <section class="max-w-3xl mx-auto" data-aos="fade-up">
-            <div class="bg-white rounded-xl shadow-lg p-8">
-                <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">📚 Available Notes</h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <!-- Note Buttons -->
-                    <button onclick="window.open('https://example.com/note1.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 1
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note2.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 2
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note3.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 3
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note4.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 4
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note5.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 5
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note6.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 6
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note7.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 7
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note8.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 8
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note9.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 9
-                    </button>
-                    
-                    <button onclick="window.open('https://example.com/note10.pdf', '_blank')" 
-                            class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg">
-                        <span class="mr-2">📘</span> Note 10
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <footer class="mt-16 text-center text-gray-500 text-sm" data-aos="fade-up">
-            <p>© 2023 Class 10 Notes. All rights reserved.</p>
-        </footer>
+  <!-- হেডার -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 shadow-lg" data-aos="fade-down">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold flex items-center justify-center gap-3">
+        <i data-feather="book-open" class="w-10 h-10"></i>
+        দশম শ্রেণীর অধ্যয়ন সামগ্রী
+      </h1>
+      <p class="mt-3 text-lg md:text-xl opacity-90">📖 সব নোটস এক জায়গায়</p>
     </div>
+  </header>
 
-    <script>
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true
-        });
-        feather.replace();
-    </script>
+  <!-- মূল কন্টেন্ট -->
+  <main class="flex-grow container mx-auto px-4 py-12">
+    <section class="max-w-4xl mx-auto" data-aos="fade-up">
+      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2 border-b pb-3">
+          <i data-feather="folder" class="text-blue-600"></i> নোটস তালিকা
+        </h2>
+
+        <!-- নোটস বাটন -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <button onclick="window.open('https://example.com/note1.pdf', '_blank')" 
+                  class="note-btn flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-xl">
+            <i data-feather="file-text" class="mr-2"></i> সমাস
+          </button>
+
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ফুটার -->
+  <footer class="bg-gradient-to-r from-indigo-700 to-blue-600 text-white py-6 mt-12" data-aos="fade-up">
+    <div class="container mx-auto px-4 text-center space-y-3">
+      <p id="footer-year" class="text-sm opacity-90"></p>
+      <div class="flex justify-center gap-6">
+        <a href="#" class="hover:text-yellow-300"><i data-feather="facebook"></i></a>
+        <a href="#" class="hover:text-pink-400"><i data-feather="instagram"></i></a>
+        <a href="#" class="hover:text-sky-300"><i data-feather="twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- স্ক্রিপ্ট -->
+  <script>
+    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+    feather.replace();
+    document.getElementById("footer-year").innerHTML =
+      `© ${new Date().getFullYear()} জ্ঞানগর্ভ । সর্বস্বত্ব সংরক্ষিত।`;
+  </script>
 </body>
 </html>
